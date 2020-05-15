@@ -58,7 +58,7 @@ const GlobalStyle = createGlobalStyle`
         text-decoration: none !important;
         padding: 10px;
     }
-    
+
     abbr[title] {
         border-bottom: none; /* 1 */
         text-decoration: underline; /* 2 */

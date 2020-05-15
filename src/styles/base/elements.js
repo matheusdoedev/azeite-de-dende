@@ -29,14 +29,14 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1.5em;
     }
 
+    p {
+        max-width: 30em;
+    }
+
     a, button {
         font-size: 1.125rem;
         line-height: 1em;
-    }
-    
-    
-    section {
-        padding: var(--gap-lg);
+        padding: .625rem;
     }
 `;
 
