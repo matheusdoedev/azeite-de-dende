@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import mainImg from '../../assets/desktop/imgs/bg-main.jpg';
+import mainImg from '../../assets/desktop/images/bg-main.jpg';
 
 export const Hero = styled.section`
   & {
