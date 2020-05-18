@@ -53,6 +53,7 @@ const IndexPage = () => {
               <RestauranteImg2 alt="Imagem do restaurante" />
             </Col>
           </Row>
+          <Row></Row>
         </Container>
       </RestauranteSection>
 
