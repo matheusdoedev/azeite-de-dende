@@ -4,7 +4,7 @@ module.exports = {
     description: `Website do restaurante Azeite de Dênde`,
     author: `@Matheusdoe-dev`,
     keywords:
-      "Restaurante , Comida Baiana, Salvador, Pelourinho, Azeite de Dende",
+      'Restaurante , Comida Baiana, Salvador, Pelourinho, Azeite de Dende',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,7 +13,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `imgs`,
-        path: `${__dirname}/src/assets`,
+        path: `${__dirname}/src/assets/`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -31,4 +31,4 @@ module.exports = {
       },
     },
   ],
-}
+};

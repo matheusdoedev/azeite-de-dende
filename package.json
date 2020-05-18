@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "azeite-de-dende",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website do restaurante Azeite de Dênde",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Matheus do É Santos",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "bootstrap": "^4.5.0",
