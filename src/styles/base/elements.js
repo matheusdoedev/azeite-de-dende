@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
     }
     
     p, label, input {
-        font-size: .875rem;
+        font-size: 1rem;
         line-height: 1.5em;
     }
 
