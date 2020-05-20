@@ -2,8 +2,14 @@ import React from 'react';
 import Layout from '../../components/Layout/index';
 import SEO from '../../components/seo';
 import { Container, Col, Row } from 'react-bootstrap';
-import { RestauranteSection, MenuSection, SobreSection } from './styles';
+import {
+  RestauranteSection,
+  MenuSection,
+  SobreSection,
+  ContatoSection,
+} from './styles';
 import SocialMedias from './../../components/SocialMedias/index';
+import ContactForm from './../../components/ContactForm/index';
 
 // imgs
 import RestauranteImg1 from '../../assets/desktop/restaurante-img-1';
@@ -167,10 +173,15 @@ const IndexPage = () => {
         </Container>
       </SobreSection>
 
-      <section>
+      <ContatoSection>
         <Container>
           <Row>
-            <Col xs="12" sm="5">
+            <Col xs="12">
+              <h2>Contato</h2>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs="12" sm="7">
               <Row>
                 <Col xs="12">
                   <h3>Entre em contato conosco</h3>
@@ -196,10 +207,12 @@ const IndexPage = () => {
                 </Col>
               </Row>
             </Col>
-            <Col xs="12" sm="7"></Col>
+            <Col xs="12" sm="5">
+              <ContactForm />
+            </Col>
           </Row>
         </Container>
-      </section>
+      </ContatoSection>
     </Layout>
   );
 };
