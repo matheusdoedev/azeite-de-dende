@@ -50,6 +50,7 @@ const Layout = ({ children }) => {
         </Container>
       </Hero>
       <main>{children}</main>
+      <Footer />
 
       <script
         src="https://unpkg.com/react/umd/react.production.min.js"
