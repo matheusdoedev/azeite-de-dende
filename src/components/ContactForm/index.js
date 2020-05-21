@@ -5,7 +5,7 @@ import { FormWrapper } from './styles';
 export default function ContactForm() {
   return (
     <FormWrapper>
-      <label>Nome</label>
+      <label for="nome">Nome</label>
       <input
         type="text"
         name="nome"
@@ -13,15 +13,15 @@ export default function ContactForm() {
         placeholder="Digite seu nome aqui"
       />
 
-      <label>Nome</label>
+      <label for="email">E-mail</label>
       <input
         type="email"
-        name="nome"
-        id="nome"
+        name="email"
+        id="email"
         placeholder="Digite seu email aqui"
       />
 
-      <label>Mensagem</label>
+      <label for="mensagem">Mensagem</label>
       <textarea
         name="mensagem"
         id="mensagem"

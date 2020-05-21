@@ -173,7 +173,7 @@ const IndexPage = () => {
         </Container>
       </SobreSection>
 
-      <ContatoSection>
+      <ContatoSection id="contato">
         <Container>
           <Row>
             <Col xs="12">

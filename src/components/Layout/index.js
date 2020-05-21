@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
       <Reset />
       <Elements />
 
-      <Hero>
+      <Hero id="inicio">
         <Container>
           <Header siteTitle={data.site.siteMetadata.title} />
           <Row>
