@@ -14,16 +14,19 @@ export default function Footer() {
             <FooterNav>
               <ul>
                 <li>
-                  <a href="#">Inicio</a>
+                  <a href="#inicio">Inicio</a>
                 </li>
                 <li>
-                  <a href="#">Menu</a>
+                  <a href="#restaurante">Restaurante</a>
                 </li>
                 <li>
-                  <a href="#">Sobre</a>
+                  <a href="#menu">Menu</a>
                 </li>
                 <li>
-                  <a href="#">Contato</a>
+                  <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                  <a href="#contato">Contato</a>
                 </li>
               </ul>
             </FooterNav>

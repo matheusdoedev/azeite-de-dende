@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import {
   HeaderWrapper,
   NavItem,
@@ -22,16 +22,16 @@ const Header = ({ siteTitle }) => (
             <NavLink href="#inicio">Inicio</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Sobre</NavLink>
+            <NavLink href="#restaurante">Restaurante</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Menu</NavLink>
+            <NavLink href="#menu">Menu</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">FAQ</NavLink>
+            <NavLink href="#sobre">Sobre</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">Contatos</NavLink>
+            <NavLink href="#contato">Contato</NavLink>
           </NavItem>
         </NavMenu>
       </NavWrapper>
