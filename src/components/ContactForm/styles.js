@@ -15,6 +15,12 @@ export const FormWrapper = styled.form`
   & input,
   & textarea {
     margin-bottom: var(--gap-sm);
+    outline-color: none;
+  }
+
+  & input:focus,
+  & textarea:focus {
+    outline: none;
   }
 
   & input,
