@@ -1,7 +1,6 @@
-import styled, { createGlobalStyle } from 'styled-components';
-import { Link } from 'gatsby';
+import styled from 'styled-components';
 
-export const Brand = styled(Link)`
+export const Brand = styled.a`
   & {
     font-size: 1.5rem;
     color: var(--support-color-1);
@@ -17,7 +16,7 @@ export const Brand = styled(Link)`
 export const HeaderWrapper = styled.header`
   & {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     margin-right: -15px;
     margin-left: -15px;
     padding: var(--gap) 0;
@@ -26,7 +25,8 @@ export const HeaderWrapper = styled.header`
 
 export const NavWrapper = styled.nav`
   & {
-    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
   }
 `;
 
@@ -36,9 +36,44 @@ export const NavMenu = styled.ul`
     justify-content: flex-end;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 991.98px) {
     & {
+      display: none;
+      position: absolute;
+      opacity: 0;
+      transform: translate(-20px, 0px);
+      background: var(--secondary-color-1);
+      width: 280px;
+      padding: var(--gap);
+      top: 50px;
+      z-index: 999;
+      text-align: left;
+      transition: 0.3s ease;
+    }
+
+    &.active {
       display: block;
+      opacity: 1;
+      transform: translate(0px, 0px);
+      transition: 0.3s ease;
+    }
+
+    &.active li {
+      display: block;
+      padding: calc(var(--gap) / 5) 0;
+    }
+
+    &.active li:last-child {
+      margin-bottom: 0;
+    }
+
+    &.active a {
+      padding-left: 0;
+    }
+
+    &.active:hover {
+      color: var(--base-color);
+      background: ;
     }
   }
 `;
@@ -58,12 +93,9 @@ export const NavItem = styled.li`
     padding-left: 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 991.98px) {
     & {
-      display: block;
-      padding: 0px;
-      margin: 0px;
-      border-top: 2px solid;
+      margin-left: 0;
     }
   }
 `;
@@ -79,4 +111,56 @@ export const NavLink = styled.a`
     color: var(--base-color);
     transition: 0.2s;
   }
+`;
+
+export const MobileMenu = styled.div`
+  & {
+    display: none;
+  }
+
+  @media (max-width: 991.98px) {
+    & {
+      display: block;
+      width: 40px;
+      height: 30px;
+      padding: 5px 0;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      height: 4px;
+      transition: 0.3s;
+    }
+
+    &:before {
+      background: var(--support-color-1);
+      margin-bottom: 8px;
+    }
+
+    &:after {
+      box-shadow: 0 4px 0 0 var(--support-color-1),
+        0 -4px 0 0 var(--support-color-1);
+    }
+
+    &.active:before,
+    &.active:after {
+      width: 80%;
+      background: var(--support-color-1);
+      box-shadow: none;
+    }
+
+    &.active::before {
+      transform: rotate(45deg) translate(7px, 4px);
+    }
+
+    &.active::after {
+      transform: rotate(-225deg) translate(-4px, 1px);
+    }
+  }
+
+  /* ${new MenuMobile('div[data-anime="mobile"]')} */
 `;
