@@ -9,7 +9,7 @@ const Image = () => {
         relativePath: { eq: "desktop/imgs/menu-img-1.png" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 3000, quality: 100) {
+          fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
