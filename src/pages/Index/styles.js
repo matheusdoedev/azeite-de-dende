@@ -4,6 +4,16 @@ export const RestauranteSection = styled.section`
   & {
     padding: var(--gap-lg);
     background: var(--secondary-color-1);
+
+    @media (max-width: 767.98px) {
+      .row:last-child div {
+        margin-bottom: var(--gap);
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 
   & h2 {
@@ -14,7 +24,7 @@ export const RestauranteSection = styled.section`
   & h2::after {
     content: '';
     display: block;
-    margin: var(--gap) auto var(--gap-md) auto;
+    margin: var(--gap) auto 0 auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--base-color);
@@ -28,10 +38,14 @@ export const RestauranteSection = styled.section`
 
   & p {
     color: var(--support-color-1);
+
+    @media (max-width: 767.98px) {
+      margin-bottom: var(--gap);
+    }
   }
 
   & .row {
-    margin-bottom: var(--gap-sm);
+    margin-bottom: var(--gap-md);
   }
 
   & .row:last-child {
@@ -53,7 +67,7 @@ export const MenuSection = styled.section`
   & h2::after {
     content: '';
     display: block;
-    margin: var(--gap) auto var(--gap-md) auto;
+    margin: var(--gap) auto 0 auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--secondary-color-1);
@@ -62,11 +76,28 @@ export const MenuSection = styled.section`
 
   & .row {
     margin-bottom: 1.875rem;
+
+    &:first-child {
+      margin-bottom: var(--gap-md);
+    }
+
+    @media (max-width: 767.98px) {
+      margin-bottom: 0;
+    }
   }
 
   & .row:last-child {
     margin-bottom: 0;
   }
+
+  @media (max-width: 767.98px) {
+    & div.col-sm-4 {
+      margin-bottom: var(--gap);
+    }
+
+    & .row:last-child div:last-child.col-sm-4 {
+      margin-bottom: 0;
+    }
 `;
 
 export const SobreSection = styled.section`
@@ -83,7 +114,7 @@ export const SobreSection = styled.section`
   & h2::after {
     content: '';
     display: block;
-    margin: var(--gap) auto var(--gap-md) auto;
+    margin: var(--gap) auto 0 auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--base-color);
@@ -106,6 +137,12 @@ export const SobreSection = styled.section`
   & .row:last-child {
     margin-bottom: 0;
   }
+
+  @media (max-width: 767.98px) {
+    & div.col-sm-5 {
+      margin-top: var(--gap-md);
+    }
+  }
 `;
 
 export const ContatoSection = styled.section`
@@ -122,7 +159,7 @@ export const ContatoSection = styled.section`
   & h2::after {
     content: '';
     display: block;
-    margin: var(--gap) auto var(--gap-md) auto;
+    margin: var(--gap) auto 0 auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--base-color);
@@ -140,7 +177,7 @@ export const ContatoSection = styled.section`
   }
 
   & .row {
-    margin-bottom: 1.875rem;
+    margin-bottom: var(--gap-md);
   }
 
   & .row:last-child {

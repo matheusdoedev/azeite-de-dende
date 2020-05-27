@@ -38,6 +38,16 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1em;
         padding: .625rem;
     }
+
+    @media (max-width: 767.98px) {
+        h1 {
+            font-size: 2.25rem; 
+        }
+
+        h2, h3 {
+            font-size: 1.5rem;
+        }
+    }
 `;
 
 export default GlobalStyle;

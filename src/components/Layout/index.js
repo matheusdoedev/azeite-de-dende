@@ -13,6 +13,7 @@ import { Button } from './../../styles/objects/buttons';
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
 import { Hero, Title, Tagline } from './styles';
+import { SmoothScroll } from './../../scripts/smooth-scroll';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,6 +25,9 @@ const Layout = ({ children }) => {
       }
     }
   `);
+
+  // scripts
+  new SmoothScroll('a[href^="#"]');
 
   return (
     <>

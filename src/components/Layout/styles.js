@@ -1,10 +1,23 @@
 import styled from 'styled-components';
 import mainImg from '../../assets/desktop/imgs/bg-main.png';
+import mainImgMobile from '../../assets/mobile/imgs/bg-main-mobile.jpg';
 
 export const Hero = styled.section`
   & {
-    background: url(${mainImg});
+    background: url(${mainImg}) no-repeat;
+    background-size: cover;
     height: 663px;
+
+    @media (max-width: 767.98px) {
+      & {
+        height: auto;
+        background: url(${mainImgMobile});
+
+        .row {
+          padding: var(--gap-lg) 0;
+        }
+      }
+    }
   }
 `;
 
@@ -14,6 +27,10 @@ export const Title = styled.h1`
     margin-bottom: var(--gap);
     color: var(--support-color-1);
     text-align: center;
+
+    @media (max-width: 767.98px) {
+      margin-top: 0;
+    }
   }
 
   &::after {
@@ -33,6 +50,10 @@ export const Tagline = styled.p`
     text-align: center;
     margin: 0 auto calc(var(--gap-sm) + 1rem) auto;
     font-size: 1.5rem;
+
+    @media (max-width: 767.98px) {
+      font-size: 1.125rem;
+    }
   }
 `;
 
