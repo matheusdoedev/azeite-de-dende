@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const FormWrapper = styled.form`
+  & h3 {
+    margin-top: var(--gap-md);
+  }
+
   & label,
   & input,
   & textarea {

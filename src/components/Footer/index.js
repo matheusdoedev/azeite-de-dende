@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SocialMedias from '../../components/SocialMedias/index';
 
-import { FooterWrapper, FooterNav } from './styles';
+import { FooterWrapper, FooterNav, Copy } from './styles';
 
 export default function Footer() {
   return (
@@ -32,7 +32,7 @@ export default function Footer() {
             </FooterNav>
           </Col>
           <Col xs="12" sm="4">
-            <h3>Mapa do Site</h3>
+            <h3>Contatos</h3>
             <p>
               - contato@azeitededende.com
               <br />- (71) 99999 - 9999
@@ -41,6 +41,16 @@ export default function Footer() {
           <Col xs="12" sm="4">
             <h3>Azeite de Dênde</h3>
             <SocialMedias />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="12">
+            <Copy>
+              Made by Matheusdoe-dev
+              <br />
+              Azeite de Dênde 2020 @ Todos os direitos reservados
+              <sup>&copy;</sup>.
+            </Copy>
           </Col>
         </Row>
       </Container>

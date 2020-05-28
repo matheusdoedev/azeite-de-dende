@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const RestauranteSection = styled.section`
   & {
-    padding: var(--gap-lg);
+    padding: var(--gap-lg) 0;
     background: var(--secondary-color-1);
 
     @media (max-width: 767.98px) {
@@ -55,7 +55,7 @@ export const RestauranteSection = styled.section`
 
 export const MenuSection = styled.section`
   & {
-    padding: var(--gap-lg);
+    padding: var(--gap-lg) 0;
     background: var(--support-color-2);
   }
 
@@ -98,11 +98,12 @@ export const MenuSection = styled.section`
     & .row:last-child div:last-child.col-sm-4 {
       margin-bottom: 0;
     }
+  }
 `;
 
 export const SobreSection = styled.section`
   & {
-    padding: var(--gap-lg);
+    padding: var(--gap-lg) 0;
     background: var(--secondary-color-3);
   }
 
@@ -147,7 +148,7 @@ export const SobreSection = styled.section`
 
 export const ContatoSection = styled.section`
   & {
-    padding: var(--gap-lg);
+    padding: var(--gap-lg) 0;
     background: var(--secondary-color-2);
   }
 
@@ -171,7 +172,7 @@ export const ContatoSection = styled.section`
     color: var(--support-color-1);
   }
 
-  & li {
+  & p {
     color: var(--support-color-1);
     line-height: 2.14rem;
   }

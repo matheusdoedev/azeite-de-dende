@@ -8,8 +8,8 @@ import {
   SobreSection,
   ContatoSection,
 } from './styles';
-import SocialMedias from './../../components/SocialMedias/index';
-import ContactForm from './../../components/ContactForm/index';
+import SocialMedias from '../../components/SocialMedias/index';
+import ContactForm from '../../components/ContactForm/index';
 
 // imgs
 import RestauranteImg1 from '../../assets/desktop/restaurante-img-1';
@@ -185,19 +185,19 @@ const IndexPage = () => {
               <Row>
                 <Col xs="12">
                   <h3>Entre em contato conosco</h3>
-                  <ul>
-                    <li>- (71) 99999 - 9999</li>
-                    <li>- contato@azeitededende.com</li>
-                  </ul>
+                  <p>
+                    - (71) 99999 - 9999
+                    <br />- contato@azeitededende.com
+                  </p>
                 </Col>
               </Row>
               <Row>
                 <Col xs="12">
                   <h3>Endereço</h3>
-                  <ul>
-                    <li>- Rua Alfredo de Brito, Pelourinho</li>
-                    <li>- Salvador/BA, Brasil</li>
-                  </ul>
+                  <p>
+                    - Rua Alfredo de Brito, Pelourinho
+                    <br />- Salvador/BA, Brasil
+                  </p>
                 </Col>
               </Row>
               <Row>

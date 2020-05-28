@@ -7,8 +7,18 @@ export const FooterWrapper = styled.footer`
   }
 
   & h3 {
-    margin-bottom: var(--gap);
+    margin: var(--gap-sm) 0 var(--gap) 0;
     color: var(--support-color-1);
+  }
+
+  @media (max-width: 767.98px) {
+    & * {
+      text-align: center;
+    }
+
+    & h3:last-child {
+      margin-top: var(--gap);
+    }
   }
 
   & p {
@@ -29,5 +39,13 @@ export const FooterNav = styled.nav`
 
   & a:hover {
     color: var(--base-color);
+  }
+`;
+
+export const Copy = styled.p`
+  & {
+    margin-top: var(--gap-sm);
+    max-width: 100%;
+    filter: brightness(70%);
   }
 `;

@@ -27,10 +27,18 @@ const GlobalStyle = createGlobalStyle`
     p, label, input {
         font-size: 1rem;
         line-height: 1.5em;
+
+        @media (max-width: 991.98px) { 
+            font-size: .875rem;
+        }
     }
 
     p {
         max-width: 30em;
+
+        @media (max-width: 575.98px) { 
+            max-width: 100%;
+        }
     }
 
     a, button {
@@ -44,8 +52,12 @@ const GlobalStyle = createGlobalStyle`
             font-size: 2.25rem; 
         }
 
-        h2, h3 {
+        h2  {
             font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
         }
     }
 `;

@@ -5,6 +5,7 @@ import { FormWrapper } from './styles';
 export default function ContactForm() {
   return (
     <FormWrapper>
+      <h3>Entre em contato conosco</h3>
       <label htmlFor="nome">Nome</label>
       <input
         type="text"

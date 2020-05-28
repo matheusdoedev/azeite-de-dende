@@ -12,10 +12,7 @@ export const Hero = styled.section`
       & {
         height: auto;
         background: url(${mainImgMobile});
-
-        .row {
-          padding: var(--gap-lg) 0;
-        }
+        padding-bottom: var(--gap-lg);
       }
     }
   }
@@ -29,7 +26,7 @@ export const Title = styled.h1`
     text-align: center;
 
     @media (max-width: 767.98px) {
-      margin-top: 0;
+      margin-top: var(--gap-lg);
     }
   }
 
@@ -61,6 +58,7 @@ export const Button = styled.a`
   & {
     padding: 1rem var(--gap-sm);
     background: var(--base-color);
+    color: var(--secondary-color);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.12),
       0px 2px 4px rgba(0, 0, 0, 0.14);
     border-radius: 4px;

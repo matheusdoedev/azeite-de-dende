@@ -1,17 +1,11 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Colors from './../../styles/settings/colors';
-import Gaps from './../../styles/settings/gaps';
-import Fonts from './../../styles/settings/fonts';
-import Normalize from './../../styles/generic/normalize';
-import Reset from './../../styles/generic/reset';
-import Elements from './../../styles/base/elements';
-import { Button } from './../../styles/objects/buttons';
+import GlobalStyles from '../../styles/main/styles';
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
+import { Container, Col, Row } from 'react-bootstrap';
+import { Button } from './../../styles/objects/buttons';
 import { Hero, Title, Tagline } from './styles';
 import { SmoothScroll } from './../../scripts/smooth-scroll';
 
@@ -31,24 +25,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Colors />
-      <Gaps />
-      <Fonts />
-      <Normalize />
-      <Reset />
-      <Elements />
+      <GlobalStyles />
 
       <Hero id="inicio">
         <Container>
-          <Header siteTitle={data.site.siteMetadata.title} />
           <Row>
+            <Col xs="12">
+              <Header siteTitle={data.site.siteMetadata.title} />
+            </Col>
             <Col xs="12">
               <Title>{data.site.siteMetadata.title}</Title>
               <Tagline>
-                Restaurante de comida baiana no Pelourinho, centro
-                <br /> histórico da cidade de Salvador.
+                Restaurante de comida baiana no Pelourinho, centro histórico da
+                cidade de Salvador.
               </Tagline>
-              <Button>Veja mais sobre</Button>
+              <Button href="#restaurante">Veja mais sobre</Button>
             </Col>
           </Row>
         </Container>

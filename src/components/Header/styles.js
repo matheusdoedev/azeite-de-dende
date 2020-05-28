@@ -6,6 +6,10 @@ export const Brand = styled.a`
     color: var(--support-color-1);
     font-family: var(--primary-font);
     font-weight: 700;
+
+    @media (max-width: 575.98px) {
+      font-size: 1.25rem;
+    }
   }
 
   &:hover {
@@ -15,10 +19,6 @@ export const Brand = styled.a`
 
 export const HeaderWrapper = styled.header`
   & {
-    display: flex;
-    justify-content: space-between;
-    margin-right: -15px;
-    margin-left: -15px;
     padding: var(--gap) 0;
   }
 `;
@@ -73,7 +73,6 @@ export const NavMenu = styled.ul`
 
     &.active:hover {
       color: var(--base-color);
-      background: ;
     }
   }
 `;
