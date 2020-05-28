@@ -21,11 +21,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Azeite de Dende`,
+        short_name: `Azeite de Dende`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FDD204;`,
+        theme_color: `#FDD204;`,
         display: `minimal-ui`,
         icon: `src/assets/desktop/icons/facebook.svg`,
       },
