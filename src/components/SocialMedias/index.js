@@ -9,17 +9,17 @@ export default function SocialMedias() {
     <>
       <SocialMediasUl>
         <li>
-          <a href="" alt="Facebook link">
+          <a href="https://facebook.com" alt="Facebook link" target="BLANK">
             <img src={FacebookSvg} alt="Facebook logo" />
           </a>
         </li>
         <li>
-          <a href="" alt="Instagram link">
+          <a href="https://instagram.com" alt="Instagram link" target="BLANK">
             <img src={InstagramSvg} alt="Instagram logo" />
           </a>
         </li>
         <li>
-          <a href="" alt="Twitter link">
+          <a href="https://twitter.com" alt="Twitter link" target="BLANK">
             <img src={TwitterSvg} alt="Twitter logo" />
           </a>
         </li>
