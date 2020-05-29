@@ -14,7 +14,7 @@ import { menuMobile } from '../../scripts/menu-mobile';
 
 const Header = ({ siteTitle }) => {
   return (
-    <HeaderWrapper id="inicio">
+    <HeaderWrapper>
       <Row>
         <Col xs="8" lg="4">
           <Brand href="#inicio">{siteTitle}</Brand>
