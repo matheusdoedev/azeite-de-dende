@@ -39,7 +39,13 @@ const Layout = ({ children }) => {
                 Restaurante de comida baiana no Pelourinho, centro histórico da
                 cidade de Salvador.
               </Tagline>
-              <Button href="#restaurante">Veja mais sobre</Button>
+              <Button
+                href="#restaurante"
+                color="var(--secondary-color)"
+                background="var(--base-color)"
+              >
+                Veja mais sobre
+              </Button>
             </Col>
           </Row>
         </Container>
