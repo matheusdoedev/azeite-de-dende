@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const FormWrapper = styled.form`
-  & h3 {
-    margin-top: var(--gap-md);
+  @media (max-width: 767.98px) {
+    & h3 {
+      margin-top: var(--gap-md);
+    }
   }
 
   & label,
