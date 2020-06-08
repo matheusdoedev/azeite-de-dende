@@ -10,7 +10,6 @@ import {
   NavLink,
   MobileMenu,
 } from './styles';
-import menuMobile from '../../scripts/menu-mobile';
 
 const Header = ({ siteTitle }) => {
   return (
@@ -21,7 +20,7 @@ const Header = ({ siteTitle }) => {
         </Col>
         <Col xs="4" lg="8">
           <NavWrapper>
-            <MobileMenu onClick={menuMobile}></MobileMenu>
+            <MobileMenu menuMobile></MobileMenu>
             <NavMenu data-anime="menu-mobile">
               <NavItem>
                 <NavLink href="#restaurante">Restaurante</NavLink>

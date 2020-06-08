@@ -159,14 +159,5 @@ export const MobileMenu = styled.div`
     &.active::after {
       transform: rotate(-225deg) translate(-4px, 1px);
     }
-
-    ${props => {
-      props.onClick = event => {
-        const menu = document.querySelector('ul[data-anime="menu-mobile"]');
-
-        event.currentTarget.classList.toggle('active');
-        menu.classList.toggle('active');
-      };
-    }}
   }
 `;

@@ -21,7 +21,6 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     const linksInternos = document.querySelectorAll('a[href^="#"]');
-    console.log(linksInternos);
 
     const scrollToSection = event => {
       event.preventDefault();
