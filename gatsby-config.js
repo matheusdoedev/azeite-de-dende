@@ -4,7 +4,7 @@ module.exports = {
     description: `Website do restaurante Azeite de Dênde`,
     author: `@Matheusdoe-dev`,
     keywords:
-      'Restaurante , Comida Baiana, Salvador, Pelourinho, Azeite de Dende',
+      'Restaurante , Comida , Baiana, Salvador, Pelourinho, Azeite de Dende, Bahia, Baiana, Cultura , Acarajé, Muqueca, Peixe, Carurú, Vatapá, Feijoada, Azeite, Sarapaté, Xinxim de Galinha, Feijão Fradinho, Matheus do É',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,7 +27,7 @@ module.exports = {
         background_color: `#FDD204;`,
         theme_color: `#FDD204;`,
         display: `minimal-ui`,
-        icon: `src/assets/desktop/icons/facebook.svg`,
+        icon: `src/assets/icons/azeite-de-dende.svg`,
       },
     },
   ],

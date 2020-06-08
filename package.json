@@ -29,7 +29,7 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "azeite, dende, restaurante, website, landing page, site institucional, gatsbyjs, gatsby, styled-components, react"
   ],
   "license": "MIT",
   "scripts": {
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Matheusdoe-dev/Azeite-de-Dende"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Matheusdoe-dev/Azeite-de-Dende/issues"
   }
 }
