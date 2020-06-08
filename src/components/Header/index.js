@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import menuMobile from '../../scripts/menu-mobile';
 import { Row, Col } from 'react-bootstrap';
 import {
   HeaderWrapper,
@@ -20,7 +21,7 @@ const Header = ({ siteTitle }) => {
         </Col>
         <Col xs="4" lg="8">
           <NavWrapper>
-            <MobileMenu menuMobile></MobileMenu>
+            <MobileMenu onClick={menuMobile}></MobileMenu>
             <NavMenu data-anime="menu-mobile">
               <NavItem>
                 <NavLink href="#restaurante">Restaurante</NavLink>
