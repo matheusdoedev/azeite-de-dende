@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FormWrapper } from './styles';
 
-export default function ContactForm() {
+const ContactForm = () => {
   return (
     <FormWrapper>
       <h3>Entre em contato conosco</h3>
@@ -32,4 +32,6 @@ export default function ContactForm() {
       <button type="submit">Enviar</button>
     </FormWrapper>
   );
-}
+};
+
+export default ContactForm;

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import {
   HeaderWrapper,
@@ -10,7 +10,7 @@ import {
   NavLink,
   MobileMenu,
 } from './styles';
-import { menuMobile } from '../../scripts/menu-mobile';
+import menuMobile from '../../scripts/menu-mobile';
 
 const Header = ({ siteTitle }) => {
   return (
@@ -23,9 +23,6 @@ const Header = ({ siteTitle }) => {
           <NavWrapper>
             <MobileMenu onClick={menuMobile}></MobileMenu>
             <NavMenu data-anime="menu-mobile">
-              <NavItem>
-                <NavLink href="#inicio">Inicio</NavLink>
-              </NavItem>
               <NavItem>
                 <NavLink href="#restaurante">Restaurante</NavLink>
               </NavItem>

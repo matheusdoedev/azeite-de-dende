@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import GlobalStyles from '../../styles/main/styles';
@@ -7,7 +7,6 @@ import Footer from '../../components/Footer/index';
 import { Container, Col, Row } from 'react-bootstrap';
 import { Button } from './../../styles/objects/buttons';
 import { Hero, Title, Tagline } from './styles';
-import { SmoothScroll } from './../../scripts/smooth-scroll';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -20,8 +19,25 @@ const Layout = ({ children }) => {
     }
   `);
 
-  // scripts
-  new SmoothScroll('a[href^="#"]');
+  useEffect(() => {
+    const linksInternos = document.querySelectorAll('a[href^="#"]');
+    console.log(linksInternos);
+
+    const scrollToSection = event => {
+      event.preventDefault();
+      const href = event.currentTarget.getAttribute('href');
+      const section = document.querySelector(href);
+
+      section.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    };
+
+    linksInternos.forEach(link => {
+      link.addEventListener('click', scrollToSection);
+    });
+  });
 
   return (
     <>
@@ -52,23 +68,6 @@ const Layout = ({ children }) => {
       </Hero>
       <main>{children}</main>
       <Footer />
-
-      <script
-        src="https://unpkg.com/react/umd/react.production.min.js"
-        crossorigin
-      ></script>
-
-      <script
-        src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-        crossorigin
-      ></script>
-
-      <script
-        src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-        crossorigin
-      ></script>
-
-      <script>var Alert = ReactBootstrap.Alert;</script>
     </>
   );
 };

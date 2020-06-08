@@ -4,7 +4,7 @@ import SocialMedias from '../../components/SocialMedias/index';
 
 import { FooterWrapper, FooterNav, Copy } from './styles';
 
-export default function Footer() {
+const Footer = () => {
   return (
     <FooterWrapper>
       <Container>
@@ -56,4 +56,6 @@ export default function Footer() {
       </Container>
     </FooterWrapper>
   );
-}
+};
+
+export default Footer;

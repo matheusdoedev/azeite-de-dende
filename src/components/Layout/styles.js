@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import mainImg from '../../assets/desktop/imgs/bg-main.png';
-import mainImgMobile from '../../assets/mobile/imgs/bg-main-mobile.jpg';
+import mainImg from '../../assets/bg-main';
+import mainImgMobile from '../../assets/imgs/bg-main-mobile.jpg';
 
-export const Hero = styled.section`
+export const Hero = styled(mainImg)`
   & {
     background: url(${mainImg}) no-repeat;
     background-size: cover;

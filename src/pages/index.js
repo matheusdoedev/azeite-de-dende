@@ -12,27 +12,27 @@ import SocialMedias from '../components/SocialMedias/index';
 import ContactForm from '../components/ContactForm/index';
 
 // imgs
-import RestauranteImg1 from '../assets/desktop/restaurante-img-1';
-import RestauranteImg2 from '../assets/desktop/restaurante-img-2';
-import RestauranteImg3 from '../assets/desktop/restaurante-img-3';
-import RestauranteImg4 from '../assets/desktop/restaurante-img-4';
-import RestauranteImg5 from '../assets/desktop/restaurante-img-5';
-import MenuImg1 from '../assets/desktop/menu-img-1';
-import MenuImg2 from '../assets/desktop/menu-img-2';
-import MenuImg3 from '../assets/desktop/menu-img-3';
-import MenuImg4 from '../assets/desktop/menu-img-4';
-import MenuImg5 from '../assets/desktop/menu-img-5';
-import MenuImg6 from '../assets/desktop/menu-img-6';
-import MenuImg7 from '../assets/desktop/menu-img-7';
-import MenuImg8 from '../assets/desktop/menu-img-8';
-import MenuImg9 from '../assets/desktop/menu-img-9';
-import SobreImg from '../assets/desktop/sobre-img';
+import RestauranteImg1 from '../assets/restaurante-img-1';
+import RestauranteImg2 from '../assets/restaurante-img-2';
+import RestauranteImg3 from '../assets/restaurante-img-3';
+import RestauranteImg4 from '../assets/restaurante-img-4';
+import RestauranteImg5 from '../assets/restaurante-img-5';
+import MenuImg1 from '../assets/menu-img-1';
+import MenuImg2 from '../assets/menu-img-2';
+import MenuImg3 from '../assets/menu-img-3';
+import MenuImg4 from '../assets/menu-img-4';
+import MenuImg5 from '../assets/menu-img-5';
+import MenuImg6 from '../assets/menu-img-6';
+import MenuImg7 from '../assets/menu-img-7';
+import MenuImg8 from '../assets/menu-img-8';
+import MenuImg9 from '../assets/menu-img-9';
+import SobreImg from '../assets/sobre-img';
 
 const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        title="Pagina Inicial"
+        title="Inicio"
         lang="pt-br"
         description="Restaurante Azeite de Dênde"
       />
