@@ -10,14 +10,14 @@ const ArtDirectedBackground = ({ className, children, id }) => {
       query {
         mobileImage: file(relativePath: { eq: "imgs/bg-main-mobile.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 1000, quality: 100) {
+            fluid(maxWidth: 1000, quality: 80) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
         desktopImage: file(relativePath: { eq: "imgs/bg-main.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 2000) {
+            fluid(quality: 80, maxWidth: 2000) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
