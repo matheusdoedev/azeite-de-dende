@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Azeite de Dênde`,
-    description: `Website do restaurante Azeite de Dênde`,
+    title: `Azeite de Dendê`,
+    description: `Website do restaurante Azeite de Dendê`,
     author: `@Matheusdoe-dev`,
     keywords:
-      'Restaurante , Comida , Baiana, Salvador, Pelourinho, Azeite de Dende, Bahia, Baiana, Cultura , Acarajé, Muqueca, Peixe, Carurú, Vatapá, Feijoada, Azeite, Sarapaté, Xinxim de Galinha, Feijão Fradinho, Matheus do É',
+      'Restaurante , Comida , Baiana, Salvador, Pelourinho, Azeite de Dendê, Bahia, Baiana, Cultura , Acarajé, Muqueca, Peixe, Carurú, Vatapá, Feijoada, Azeite, Sarapaté, Xinxim de Galinha, Feijão Fradinho, Matheus do É',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Azeite de Dende`,
-        short_name: `Azeite de Dende`,
+        name: `Azeite de Dendê`,
+        short_name: `Azeite de Dendê`,
         start_url: `/`,
         background_color: `#FDD204`,
         theme_color: `#FDD204`,

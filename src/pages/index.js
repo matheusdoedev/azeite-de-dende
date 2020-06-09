@@ -34,7 +34,7 @@ const IndexPage = () => {
       <SEO
         title="Inicio"
         lang="pt-br"
-        description="Restaurante Azeite de Dênde"
+        description="Restaurante Azeite de Dendê"
       />
 
       {/* content */}

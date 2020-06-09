@@ -39,7 +39,7 @@ const Footer = () => {
             </p>
           </Col>
           <Col xs="12" sm="4">
-            <h3>Azeite de Dênde</h3>
+            <h3>Azeite de Dendê</h3>
             <SocialMedias />
           </Col>
         </Row>
@@ -48,7 +48,7 @@ const Footer = () => {
             <Copy>
               Made by Matheusdoe-dev
               <br />
-              Azeite de Dênde 2020 @ Todos os direitos reservados
+              Azeite de Dendê 2020 @ Todos os direitos reservados
               <sup>&copy;</sup>.
             </Copy>
           </Col>
