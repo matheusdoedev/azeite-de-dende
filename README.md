@@ -28,7 +28,7 @@ npm run build
 
 ### What is that?
 
-<p> EThis is an institutional website project made with GatsbyJS, BootStrap and StyleComponents.</p>
+<p> This is an institutional website project made with GatsbyJS, BootStrap and StyleComponents.</p>
 
 ### Why ?
 
