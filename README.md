@@ -1,12 +1,12 @@
 # Azeite de Dênde
 
-> Restaurante de Comida Baiana no centro histórico da cidade de Salvador.
+> Bahian Food Restaurant in the historic center of the city of Salvador.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-Esse é um projeto de site institucional de um restaurante fictício, feito com GatsbyJS, BootStrap e Styled-Components
+This is a one page institutional website for a fictional restaurant made with GatsbyJS, BootStrap and Styled-Components
 
 <a href="https://azeitededende.netlify.com"><img src="./github/desktop-thumb.jpg"></a>
 
@@ -28,13 +28,13 @@ npm run build
 
 ### What is that?
 
-<p> Esse é um projeto de site institucional feito com GatsbyJS, BootStrap e StyleComponents.</p>
+<p> This is an institutional website project made with GatsbyJS, BootStrap and StyleComponents.</p>
 
 ### Why ?
 
 <ul>
-<li> Esse foi um projeto paralelo que fiz a outro no curso de UI/UX Design no Coursera. E então no desenvolvimento decidi por usar o Gatsby, já que o site em sí seria uma página estática </li>
-<li> Praticar e ganhar mais experiência :)</li>
+<li> EThis was a side project that I did on the UI / UX Design course at Coursera. And so in development I decided to use Gatsby, since the site itself would be a static page </li>
+<li> Practice and gain more experience </li>
 </ul>
 
 ### Technologies
@@ -49,6 +49,7 @@ npm run build
 ## Links
 
 [Live](https://azeitededende.netlify.com)
+[Screens](https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI)
 
 <!-- [Mockups](https://twitter.com/dbader_org)
 [More about](https://twitter.com/dbader_org) -->
