@@ -49,7 +49,7 @@ npm run build
 ## Links
 
 <ul>
-<li><a href="hhttps://azeitededende.netlify.com">Live</a></li>
+<li><a href="https://azeitededende.netlify.com">Live</a></li>
 <li><a href="https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI">Mockups</a></li>
 </ul>
 
