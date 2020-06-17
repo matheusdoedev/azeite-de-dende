@@ -40,17 +40,17 @@ npm run build
 ### Technologies
 
 <ul>
-  <li><a hre="https://www.gatsbyjs.org/">GatsbyJS</a></li>
-  <li><a hre="https://pt-br.reactjs.org/">ReactJS</a></li>
-  <li><a hre="https://react-bootstrap.github.io/">React BootStrap</a></li>
-  <li><a hre="https://styled-components.com/">Styled-Components</a></li>
+<li><a href="https://www.gatsbyjs.org/">GatsbyJS</a></li>
+<li><a href="https://pt-br.reactjs.org/">ReactJS</a></li>
+<li><a href="https://react-bootstrap.github.io/">React BootStrap</a></li>
+<li><a href="https://styled-components.com/">Styled-Components</a></li>
 </ul>
 
 ## Links
 
 <ul>
-  <li><a hre="hhttps://azeitededende.netlify.com">Live</a></li>
-  <li><a hre="https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI">Mockups</a></li>
+<li><a href="hhttps://azeitededende.netlify.com">Live</a></li>
+<li><a href="https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI">Mockups</a></li>
 </ul>
 
 ## Meta
