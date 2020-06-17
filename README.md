@@ -8,7 +8,7 @@
 
 This is a one page institutional website for a fictional restaurant made with GatsbyJS, BootStrap and Styled-Components
 
-<a href="https://azeitededende.netlify.com"><img src="./github/desktop-thumb.jpg"></a>
+<a href="https://azeitededende.netlify.com"><img src="./github/thumbs/readme-thumb.jpg"></a>
 
 ## Get Started
 
@@ -33,7 +33,7 @@ npm run build
 ### Why ?
 
 <ul>
-<li> EThis was a side project that I did on the UI / UX Design course at Coursera. And so in development I decided to use Gatsby, since the site itself would be a static page </li>
+<li> This was a side project that I did on the UI / UX Design course at Coursera. And so in development I decided to use Gatsby, since the site itself would be a static page </li>
 <li> Practice and gain more experience </li>
 </ul>
 
@@ -48,11 +48,10 @@ npm run build
 
 ## Links
 
-[Live](https://azeitededende.netlify.com)
-[Screens](https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI)
-
-<!-- [Mockups](https://twitter.com/dbader_org)
-[More about](https://twitter.com/dbader_org) -->
+<ul>
+  <li><a hre="hhttps://azeitededende.netlify.com">Live</a></li>
+  <li><a hre="https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI">Mockups</a></li>
+</ul>
 
 ## Meta
 
