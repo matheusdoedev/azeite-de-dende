@@ -10,7 +10,6 @@ import {
 } from '../styles';
 import SocialMedias from '../components/SocialMedias/index';
 import ContactForm from '../components/ContactForm/index';
-
 // imgs
 import RestauranteImg1 from '../assets/restaurante-img-1';
 import RestauranteImg2 from '../assets/restaurante-img-2';
