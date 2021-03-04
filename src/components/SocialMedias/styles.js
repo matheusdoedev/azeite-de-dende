@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SocialMediasUl = styled.ul`
+export const SocialMediasWrapper = styled.ul`
   & li {
     display: inline;
     margin-right: calc(var(--gap) / 2);

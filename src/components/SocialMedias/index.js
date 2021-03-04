@@ -1,29 +1,21 @@
 import React from 'react';
-import FacebookSvg from '../../assets/icons/facebook.svg';
-import InstagramSvg from '../../assets/icons/instagram.svg';
-import TwitterSvg from '../../assets/icons/twitter.svg';
-import { SocialMediasUl } from './styles';
 
-export default function SocialMedias() {
+import withData from './withData';
+
+import * as S from './styles';
+
+function SocialMedias({ socialMedias }) {
   return (
-    <>
-      <SocialMediasUl>
-        <li>
-          <a href="https://facebook.com" alt="Facebook link" target="BLANK">
-            <img src={FacebookSvg} alt="Facebook logo" />
+    <S.SocialMediasWrapper>
+      {socialMedias.map(({ href, alt, image }, index) => (
+        <li key={index}>
+          <a href={href} alt={alt} target="BLANK">
+            <img src={image} alt={alt} />
           </a>
         </li>
-        <li>
-          <a href="https://instagram.com" alt="Instagram link" target="BLANK">
-            <img src={InstagramSvg} alt="Instagram logo" />
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com" alt="Twitter link" target="BLANK">
-            <img src={TwitterSvg} alt="Twitter logo" />
-          </a>
-        </li>
-      </SocialMediasUl>
-    </>
+      ))}
+    </S.SocialMediasWrapper>
   );
 }
+
+export default withData(SocialMedias);
