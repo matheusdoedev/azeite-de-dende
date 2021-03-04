@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-  & {
-    padding: var(--gap-md) 0;
-    background: var(--secondary-color-4);
-  }
+  padding: var(--gap-md) 0;
+  background: var(--secondary-color-4);
 
   & h3 {
     margin: var(--gap-sm) 0 var(--gap) 0;

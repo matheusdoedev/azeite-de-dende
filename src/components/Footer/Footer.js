@@ -1,17 +1,18 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+
 import SocialMedias from '../../components/SocialMedias/index';
 
-import { FooterWrapper, FooterNav, Copy } from './styles';
+import * as F from './styles';
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <FooterWrapper>
+    <F.FooterWrapper>
       <Container>
         <Row>
           <Col xs="12" sm="4">
             <h3>Mapa do Site</h3>
-            <FooterNav>
+            <F.FooterNav>
               <ul>
                 <li>
                   <a href="#inicio">Inicio</a>
@@ -29,7 +30,7 @@ const Footer = () => {
                   <a href="#contato">Contato</a>
                 </li>
               </ul>
-            </FooterNav>
+            </F.FooterNav>
           </Col>
           <Col xs="12" sm="4">
             <h3>Contatos</h3>
@@ -45,17 +46,15 @@ const Footer = () => {
         </Row>
         <Row>
           <Col xs="12">
-            <Copy>
+            <F.Copy>
               Made by Matheusdoe-dev
               <br />
               Azeite de Dendê 2020 @ Todos os direitos reservados
               <sup>&copy;</sup>.
-            </Copy>
+            </F.Copy>
           </Col>
         </Row>
       </Container>
-    </FooterWrapper>
+    </F.FooterWrapper>
   );
-};
-
-export default Footer;
+}
