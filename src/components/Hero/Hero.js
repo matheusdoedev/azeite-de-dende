@@ -14,6 +14,8 @@ export default function Hero({ data }) {
           <Col xs="12">
             <Header siteTitle={data.site.siteMetadata.title} />
           </Col>
+        </Row>
+        <H.HeroContent>
           <Col xs="12">
             <H.Title>{data.site.siteMetadata.title}</H.Title>
             <H.Tagline>
@@ -28,7 +30,7 @@ export default function Hero({ data }) {
               Veja mais sobre
             </Button>
           </Col>
-        </Row>
+        </H.HeroContent>
       </Container>
     </H.Hero>
   );

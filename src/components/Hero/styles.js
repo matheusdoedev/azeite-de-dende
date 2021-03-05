@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
+import { Row } from 'react-bootstrap';
+
 import mainImg from '../../assets/bg-main';
 import mainImgMobile from '../../assets/imgs/bg-main-mobile.jpg';
 
 export const Hero = styled(mainImg)`
   background: url(${mainImg}) no-repeat;
   background-size: cover;
-  height: 663px;
+  min-height: 100vh;
 
   @media (max-width: 767.98px) {
     & {
@@ -15,6 +17,11 @@ export const Hero = styled(mainImg)`
       padding-bottom: var(--gap-lg);
     }
   }
+`;
+
+export const HeroContent = styled(Row)`
+  height: 65vh;
+  align-items: center;
 `;
 
 export const Title = styled.h1`
