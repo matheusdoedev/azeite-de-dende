@@ -1,36 +1,19 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import SocialMedias from '../../components/SocialMedias/index';
+import Sitemap from '../Sitemap/Sitemap';
+import SocialMedias from '../SocialMedias/SocialMedias';
 
 import * as F from './styles';
 
 export default function Footer() {
   return (
-    <F.FooterWrapper>
+    <F.FooterWrapper title="Rodapé">
       <Container>
         <Row>
           <Col xs="12" sm="4">
             <h3>Mapa do Site</h3>
-            <F.FooterNav>
-              <ul>
-                <li>
-                  <a href="#inicio">Inicio</a>
-                </li>
-                <li>
-                  <a href="#restaurante">Restaurante</a>
-                </li>
-                <li>
-                  <a href="#menu">Menu</a>
-                </li>
-                <li>
-                  <a href="#sobre">Sobre</a>
-                </li>
-                <li>
-                  <a href="#contato">Contato</a>
-                </li>
-              </ul>
-            </F.FooterNav>
+            <Sitemap />
           </Col>
           <Col xs="12" sm="4">
             <h3>Contatos</h3>
@@ -47,7 +30,10 @@ export default function Footer() {
         <Row>
           <Col xs="12">
             <F.Copy>
-              Made by Matheusdoe-dev
+              Made by
+              <a href="https://matheusdoe.com" target="BLANK">
+                matheusdoedev
+              </a>
               <br />
               Azeite de Dendê 2020 @ Todos os direitos reservados
               <sup>&copy;</sup>.
