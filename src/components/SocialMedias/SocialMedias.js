@@ -6,7 +6,7 @@ import * as S from './styles';
 
 function SocialMedias({ socialMedias }) {
   return (
-    <S.SocialMediasWrapper>
+    <S.SocialMediasWrapper title="Redes Sociais">
       {socialMedias.map(({ href, alt, image }, index) => (
         <li key={index}>
           <a href={href} alt={alt} target="BLANK">

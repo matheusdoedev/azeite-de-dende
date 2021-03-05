@@ -28,6 +28,10 @@ export const SobreWrapper = styled.section`
     color: var(--support-color-2);
   }
 
+  & img {
+    border-radius: 4px;
+  }
+
   & .row {
     margin-bottom: 1.875rem;
   }
