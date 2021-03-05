@@ -10,7 +10,7 @@ function Nav({ navMenu }) {
   useMenuMobile();
 
   return (
-    <N.NavWrapper>
+    <N.NavWrapper title="Nav">
       <N.MobileMenu data-anime="menu-mobile-toggle"></N.MobileMenu>
       <N.NavMenu data-anime="menu-mobile">
         {navMenu.map(({ name, href }, index) => (

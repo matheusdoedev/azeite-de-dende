@@ -11,7 +11,7 @@ import * as R from './styles';
 
 export default function RestauranteSection() {
   return (
-    <R.RestauranteSection id="restaurante">
+    <R.RestauranteSection id="restaurante" title="Restaurante">
       <Container>
         <Row>
           <Col xs="12">
@@ -20,13 +20,15 @@ export default function RestauranteSection() {
         </Row>
         <Row>
           <Col xs="12" sm="7">
-            <h3>Infraestrutura</h3>
-            <p>
-              O restaurante Azeite de Dênde conta com uma grande infraestrutura
-              para atender bem seu cliente. <br />
-              Contamos com um enorme espaço para acomodação, bem decorado, e uma
-              cozinha sofisticada.
-            </p>
+            <article title="Infraestrutura">
+              <h3>Infraestrutura</h3>
+              <p>
+                O restaurante Azeite de Dênde conta com uma grande
+                infraestrutura para atender bem seu cliente. <br />
+                Contamos com um enorme espaço para acomodação, bem decorado, e
+                uma cozinha sofisticada.
+              </p>
+            </article>
           </Col>
           <Col xs="12" sm="5">
             <RestauranteImg1 alt="Espaço interno do restaurante" />
@@ -34,13 +36,15 @@ export default function RestauranteSection() {
         </Row>
         <Row>
           <Col xs="12" sm="7">
-            <h3>No centro histórico de Salvador</h3>
-            <p>
-              O restaurante Azeite de Dênde conta com uma grande infraestrutura
-              para atender bem seu cliente. <br />
-              Contamos com um enorme espaço para acomodação, bem decorado, e uma
-              cozinha sofisticada.
-            </p>
+            <article title="No centro histórico de Salvador">
+              <h3>No centro histórico de Salvador</h3>
+              <p>
+                O restaurante Azeite de Dênde conta com uma grande
+                infraestrutura para atender bem seu cliente. <br />
+                Contamos com um enorme espaço para acomodação, bem decorado, e
+                uma cozinha sofisticada.
+              </p>
+            </article>
           </Col>
           <Col xs="12" sm="5">
             <RestauranteImg2 alt="Pelourinho" />

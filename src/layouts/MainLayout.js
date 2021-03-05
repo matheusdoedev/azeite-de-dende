@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import ProvideStyles from '../providers/ProvideStyles';
+import withStyles from '../providers/withStyles';
 
 import Hero from '../components/Hero/Hero';
-import Footer from '../components/Footer/index';
+import Footer from '../components/Footer/Footer';
 
 import useSmoothScroll from '../hooks/useSmoothScroll';
 
@@ -35,4 +35,4 @@ MainLayout.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default ProvideStyles(MainLayout);
+export default withStyles(MainLayout);

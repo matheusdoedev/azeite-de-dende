@@ -21,8 +21,10 @@ function SobreSection({ sobreContent }) {
             {sobreContent.map(({ title, content }, index) => (
               <Row key={index}>
                 <Col xs="12">
-                  <h3>{title}</h3>
-                  <p>{content}</p>
+                  <article title={title}>
+                    <h3>{title}</h3>
+                    <p>{content}</p>
+                  </article>
                 </Col>
               </Row>
             ))}

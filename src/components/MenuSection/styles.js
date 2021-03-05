@@ -19,6 +19,10 @@ export const MenuWrapper = styled.section`
     opacity: 40%;
   }
 
+  & img {
+    border-radius: 4px;
+  }
+
   & .row {
     margin-bottom: 1.875rem;
 

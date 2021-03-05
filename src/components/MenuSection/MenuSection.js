@@ -15,7 +15,7 @@ import * as M from './styles';
 
 export default function MenuSection() {
   return (
-    <M.MenuWrapper id="menu">
+    <M.MenuWrapper id="menu" title="Menu">
       <Container>
         <Row>
           <Col xs="12">

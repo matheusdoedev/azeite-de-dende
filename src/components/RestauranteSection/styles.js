@@ -49,4 +49,8 @@ export const RestauranteSection = styled.section`
   & .row:last-child {
     margin-bottom: 0;
   }
+
+  & img {
+    border-radius: 4px;
+  }
 `;

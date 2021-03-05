@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import SocialMedias from '../SocialMedias/index';
-import ContactForm from '../ContactForm/index';
+import SocialMedias from '../SocialMedias/SocialMedias';
+import ContactForm from '../ContactForm/ContactForm';
 
 import * as C from './styles';
 
 export default function ContatoSection() {
   return (
-    <C.ContatoWrapper id="contato">
+    <C.ContatoWrapper id="contato" title="Contato">
       <Container>
         <Row>
           <Col xs="12">
