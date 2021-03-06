@@ -20,13 +20,11 @@ export const Hero = styled(mainImg)`
 `;
 
 export const HeroContent = styled(Row)`
-  height: 65vh;
+  height: 80vh;
   align-items: center;
 `;
 
 export const Title = styled.h1`
-  margin-top: 9.3125rem;
-  margin-bottom: var(--gap);
   color: var(--support-color-1);
   text-align: center;
 
@@ -37,7 +35,7 @@ export const Title = styled.h1`
   &::after {
     content: '';
     display: block;
-    margin: var(--gap) auto var(--gap) auto;
+    margin: var(--gap-sm) auto var(--gap-sm) auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--base-color);
@@ -48,7 +46,7 @@ export const Title = styled.h1`
 export const Tagline = styled.p`
   color: var(--support-color-1);
   text-align: center;
-  margin: 0 auto calc(var(--gap-sm) + 1rem) auto;
+  margin: 0 auto var(--gap-md) auto;
   font-size: 1.5rem;
 
   @media (max-width: 767.98px) {

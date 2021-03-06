@@ -10,7 +10,7 @@ import * as H from './styles';
 const Header = ({ siteTitle }) => {
   return (
     <H.HeaderWrapper>
-      <Row>
+      <Row style={{ alignItems: 'center' }}>
         <Col xs="8" lg="4">
           <Brand content={siteTitle} />
         </Col>

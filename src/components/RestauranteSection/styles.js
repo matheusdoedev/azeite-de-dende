@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const RestauranteSection = styled.section`
-  padding: var(--gap-lg) 0;
+  padding: var(--gap-xl) 0;
   background: var(--secondary-color-1);
 
   @media (max-width: 767.98px) {
@@ -22,7 +22,7 @@ export const RestauranteSection = styled.section`
   & h2::after {
     content: '';
     display: block;
-    margin: var(--gap) auto 0 auto;
+    margin: var(--gap) auto var(--gap-lg) auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--base-color);
@@ -30,7 +30,7 @@ export const RestauranteSection = styled.section`
   }
 
   & h3 {
-    margin-bottom: var(--gap-sm);
+    margin-bottom: var(--gap-md);
     color: var(--support-color-1);
   }
 
@@ -43,7 +43,12 @@ export const RestauranteSection = styled.section`
   }
 
   & .row {
-    margin-bottom: var(--gap-md);
+    align-items: center;
+  }
+
+  & .row:nth-child(2),
+  & .row:nth-child(3) {
+    margin-bottom: var(--gap-lg);
   }
 
   & .row:last-child {

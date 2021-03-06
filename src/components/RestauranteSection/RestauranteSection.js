@@ -19,7 +19,7 @@ export default function RestauranteSection() {
           </Col>
         </Row>
         <Row>
-          <Col xs="12" sm="7">
+          <Col xs="12" sm="6">
             <article title="Infraestrutura">
               <h3>Infraestrutura</h3>
               <p>
@@ -30,12 +30,12 @@ export default function RestauranteSection() {
               </p>
             </article>
           </Col>
-          <Col xs="12" sm="5">
+          <Col xs="12" sm="6">
             <RestauranteImg1 alt="Espaço interno do restaurante" />
           </Col>
         </Row>
         <Row>
-          <Col xs="12" sm="7">
+          <Col xs="12" sm="6">
             <article title="No centro histórico de Salvador">
               <h3>No centro histórico de Salvador</h3>
               <p>
@@ -46,7 +46,7 @@ export default function RestauranteSection() {
               </p>
             </article>
           </Col>
-          <Col xs="12" sm="5">
+          <Col xs="12" sm="6">
             <RestauranteImg2 alt="Pelourinho" />
           </Col>
         </Row>

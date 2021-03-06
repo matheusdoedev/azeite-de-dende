@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContatoWrapper = styled.section`
-  padding: var(--gap-lg) 0;
+  padding: var(--gap-xl) 0;
   background: var(--secondary-color-2);
 
   & h2 {
@@ -12,7 +12,7 @@ export const ContatoWrapper = styled.section`
   & h2::after {
     content: '';
     display: block;
-    margin: var(--gap) auto 0 auto;
+    margin: var(--gap) auto var(--gap-lg) auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--base-color);
@@ -20,7 +20,7 @@ export const ContatoWrapper = styled.section`
   }
 
   & h3 {
-    margin-bottom: var(--gap);
+    margin-bottom: var(--gap-md);
     color: var(--support-color-1);
   }
 

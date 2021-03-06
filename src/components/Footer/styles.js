@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-  padding: var(--gap-md) 0;
+  padding: var(--gap-lg) 0;
   background: var(--secondary-color-4);
 
   & h3 {
-    margin: var(--gap-sm) 0 var(--gap) 0;
+    margin: var(--gap-sm) 0 var(--gap-sm) 0;
     color: var(--support-color-1);
   }
 
@@ -30,6 +30,7 @@ export const Copy = styled.p`
   max-width: 100%;
   filter: brightness(70%);
   transition: 0.3s;
+  text-align: center;
 
   & a {
     color: var(--base-color);

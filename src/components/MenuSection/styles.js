@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MenuWrapper = styled.section`
-  padding: var(--gap-lg) 0;
+  padding: var(--gap-xl) 0;
   background: var(--support-color-2);
 
   & h2 {
@@ -12,7 +12,7 @@ export const MenuWrapper = styled.section`
   & h2::after {
     content: '';
     display: block;
-    margin: var(--gap) auto 0 auto;
+    margin: var(--gap) auto var(--gap-lg) auto;
     width: 1.875rem;
     height: 0.25rem;
     background: var(--secondary-color-1);
@@ -26,13 +26,13 @@ export const MenuWrapper = styled.section`
   & .row {
     margin-bottom: 1.875rem;
 
-    &:first-child {
-      margin-bottom: var(--gap-md);
-    }
-
     @media (max-width: 767.98px) {
       margin-bottom: 0;
     }
+  }
+
+  & .row:first-child {
+    margin-bottom: 0;
   }
 
   & .row:last-child {

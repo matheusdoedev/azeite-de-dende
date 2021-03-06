@@ -23,7 +23,7 @@ export const InputBlock = styled.div`
 
   & > input {
     width: 100%;
-    padding: var(--gap);
+    padding: calc(var(--gap) * 0.75);
     background: var(--support-color-1);
     color: var(--secondary-color-3);
     border: none;
