@@ -1,63 +1,61 @@
 # Azeite de Dênde
 
-> Bahian Food Restaurant in the historic center of the city of Salvador.
+Bahian Food Restaurant in the historic center of the city of Salvador.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-This is a one page institutional website for a fictional restaurant made with GatsbyJS, BootStrap and Styled-Components
-
-<a href="https://azeitededende.netlify.com"><img src="./github/thumbs/readme-thumb.jpg"></a>
+![Repo Size][repo-size]
+![Top Languages][top-languages]
+![Repo License][repo-license]
+![Repo Version][repo-version]
+![Personal Site][matheus-img]
 
 ## Get Started
+
+Install dependencies:
+
+```sh
+npm install
+
+yarn
+```
 
 Start:
 
 ```sh
 npm run start
+
+yarn start
 ```
 
-Build:
+Develop:
 
 ```sh
-npm run build
+npm run develop
+
+yarn develop
 ```
 
 ## About
 
-### What is that?
-
-<p> This is an institutional website project made with GatsbyJS, BootStrap and StyleComponents.</p>
-
-### Why ?
-
-<ul>
-<li> This was a side project that I did on the UI / UX Design course at Coursera. And so in development I decided to use Gatsby, since the site itself would be a static page </li>
-<li> Practice and gain more experience </li>
-</ul>
+- Institutional website project made with Gatsby.js, React.js, BootStrap, React-Bootstrap and Styled-Components.
+- This was a side project that I did on the UI / UX Design course at Coursera. And so in development I decided to use Gatsby, since the site itself would be a static page.
 
 ### Technologies
 
-<ul>
-<li><a href="https://www.gatsbyjs.org/">GatsbyJS</a></li>
-<li><a href="https://pt-br.reactjs.org/">ReactJS</a></li>
-<li><a href="https://react-bootstrap.github.io/">React BootStrap</a></li>
-<li><a href="https://styled-components.com/">Styled-Components</a></li>
-</ul>
+- [Gatsby.js](https://www.gatsbyjs.org/)
+- [ReactJS](https://pt-br.reactjs.org)
+- [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [Styled-Components](https://styled-components.com/)
 
 ## Links
 
-<ul>
-<li><a href="https://azeitededende.netlify.com">Live</a></li>
-<li><a href="https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI">Mockups</a></li>
-</ul>
+- [Live]("https://azeitededende.netlify.com")
+- [Behance]("https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI")
 
 ## Meta
 
-Author: Matheus do É Santos – [Linkedin](https://www.linkedin.com/in/matheusdoe-dev/)
-
-Distributed under the MIT license. See `LICENSE` for more information.
+- Author: Matheus do É Santos – [Linkedin](https://www.linkedin.com/in/matheusdoe-dev/)
+- Distributed under the MIT license.
 
 ## Contributing
 
@@ -69,8 +67,9 @@ Distributed under the MIT license. See `LICENSE` for more information.
 
 <!-- Markdown link & img dfn's -->
 
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[top-languages]: https://img.shields.io/github/languages/top/matheusdoedev/azeite-de-dende?style=flat-square
+[repo-size]: https://img.shields.io/github/repo-size/matheusdoedev/azeite-de-dende?style=flat-square
+[repo-license]: https://img.shields.io/github/license/matheusdoedev/azeite-de-dende?style=flat-square
+[repo-version]: https://img.shields.io/github/package-json/v/matheusdoedev/azeite-de-dende?style=flat-square
+[matheus-img]: https://img.shields.io/badge/-matheusdoe.dev-%23811662?style=flat-square
+[matheus-url]: https://matheusdoe.com
