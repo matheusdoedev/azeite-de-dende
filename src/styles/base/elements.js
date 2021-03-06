@@ -49,7 +49,7 @@ const GlobalStyle = createGlobalStyle`
 
     @media (max-width: 767.98px) {
         h1 {
-            font-size: 2.25rem; 
+            font-size: 2rem; 
         }
 
         h2  {

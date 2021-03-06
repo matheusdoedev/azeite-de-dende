@@ -1,8 +1,8 @@
 {
   "name": "azeite-de-dende",
-  "private": true,
-  "description": "Website do restaurante Azeite de Dênde",
-  "version": "1.0.0",
+  "private": false,
+  "description": "Site institucional do restaurante Azeite de Dênde",
+  "version": "1.0.1",
   "author": "Matheus do É Santos",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",

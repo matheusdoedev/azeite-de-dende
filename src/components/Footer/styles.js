@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-  & {
-    padding: var(--gap-md) 0;
-    background: var(--secondary-color-4);
-  }
+  padding: var(--gap-lg) 0;
+  background: var(--secondary-color-4);
 
   & h3 {
-    margin: var(--gap-sm) 0 var(--gap) 0;
+    margin: var(--gap-sm) 0 var(--gap-sm) 0;
     color: var(--support-color-1);
   }
 
@@ -27,25 +25,19 @@ export const FooterWrapper = styled.footer`
   }
 `;
 
-export const FooterNav = styled.nav`
-  & li {
-    margin-bottom: var(--gap);
-  }
+export const Copy = styled.p`
+  margin-top: var(--gap-sm);
+  max-width: 100%;
+  filter: brightness(70%);
+  transition: 0.3s;
+  text-align: center;
 
   & a {
-    padding-left: 0;
-    color: var(--support-color-2);
-  }
-
-  & a:hover {
     color: var(--base-color);
-  }
-`;
 
-export const Copy = styled.p`
-  & {
-    margin-top: var(--gap-sm);
-    max-width: 100%;
-    filter: brightness(70%);
+    :hover {
+      filter: brightness(85%);
+      transition: 0.3s;
+    }
   }
 `;
