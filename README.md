@@ -1,75 +1,69 @@
-# Azeite de Dênde
+# azeite-de-dende
 
-Bahian Food Restaurant in the historic center of the city of Salvador.
+## Build Setup
 
-![Repo Size][repo-size]
-![Top Languages][top-languages]
-![Repo License][repo-license]
-![Repo Version][repo-version]
-![Personal Site][matheus-img]
+```bash
+# install dependencies
+$ yarn install
 
-## Get Started
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-Install dependencies:
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-```sh
-npm install
-
-yarn
+# generate static project
+$ yarn generate
 ```
 
-Start:
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-```sh
-npm run start
+## Special Directories
 
-yarn start
-```
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
-Develop:
+### `assets`
 
-```sh
-npm run develop
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
 
-yarn develop
-```
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
 
-## About
+### `components`
 
-- Institutional website project made with Gatsby.js, React.js, BootStrap, React-Bootstrap and Styled-Components.
-- This was a side project that I did on the UI / UX Design course at Coursera. And so in development I decided to use Gatsby, since the site itself would be a static page.
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
-### Technologies
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
 
-- [Gatsby.js](https://www.gatsbyjs.org/)
-- [ReactJS](https://pt-br.reactjs.org)
-- [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-- [Styled-Components](https://styled-components.com/)
+### `layouts`
 
-## Links
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
-- [Live]("https://azeitededende.netlify.com")
-- [Behance]("https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI")
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
 
-## Meta
 
-- Author: Matheus do É Santos – [Linkedin](https://www.linkedin.com/in/matheusdoe-dev/)
-- Distributed under the MIT license.
+### `pages`
 
-## Contributing
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
 
-1. Fork it
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
 
-<!-- Markdown link & img dfn's -->
+### `plugins`
 
-[top-languages]: https://img.shields.io/github/languages/top/matheusdoedev/azeite-de-dende?style=flat-square
-[repo-size]: https://img.shields.io/github/repo-size/matheusdoedev/azeite-de-dende?style=flat-square
-[repo-license]: https://img.shields.io/github/license/matheusdoedev/azeite-de-dende?style=flat-square
-[repo-version]: https://img.shields.io/github/package-json/v/matheusdoedev/azeite-de-dende?style=flat-square
-[matheus-img]: https://img.shields.io/badge/-matheusdoe.dev-%23811662?style=flat-square
-[matheus-url]: https://matheusdoe.com
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+
+### `static`
+
+This directory contains your static files. Each file inside this directory is mapped to `/`.
+
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+
+### `store`
+
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
