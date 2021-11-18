@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+}
+
+*,
+ul,
+ol,
+dl {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  color: initial;
+}
+
+button {
+  transition: 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+    transition: 0.2s;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
