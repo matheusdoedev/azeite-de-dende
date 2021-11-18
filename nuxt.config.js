@@ -17,7 +17,7 @@ export default {
   srcDir: "src/",
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["static/styles/index.scss"],
+  css: ["src/assets/styles/index.scss"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
