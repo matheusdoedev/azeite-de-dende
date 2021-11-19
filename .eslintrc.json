@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:vue/recommended",
+    "eslint:recommended",
+    "prettier/vue",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier", "@typescript-eslint", "eslint-plugin-import-helpers"],
+  "rules": {
+    "vue/component-name-in-template-casing": ["error", "PascalCase"],
+    "no-console": "warn",
+    "no-debugger": "warn"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {},
+      "import/resolver": {
+        "babel-plugin-root-import": {
+          "rootPathPrefix": "~/*",
+          "rootPathSuffix": "src/*"
+        }
+      }
+    }
+  }
+}
