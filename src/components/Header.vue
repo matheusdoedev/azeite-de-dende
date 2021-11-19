@@ -8,13 +8,13 @@
 <style lang=""></style>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 
-import { Component } from "nuxt-property-decorator";
+import { Component } from 'nuxt-property-decorator';
 
 const components = {
-  Brand: () => import("~/components/Brand.vue"),
-  Nav: () => import("~/components/Nav.vue"),
+  Brand: () => import('~/components/Brand.vue'),
+  Nav: () => import('~/components/Nav.vue'),
 };
 
 @Component({ components })
@@ -22,7 +22,7 @@ export default class Header extends Vue {}
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/settings/gaps";
+@import '~/assets/styles/settings/gaps';
 
 .Header {
   display: flex;
