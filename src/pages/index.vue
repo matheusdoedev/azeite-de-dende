@@ -4,6 +4,7 @@
     <Restaurante />
     <Menu />
     <Sobre />
+    <Contato />
   </div>
 </template>
 
