@@ -3,6 +3,7 @@
     <Intro />
     <Restaurante />
     <Menu />
+    <Sobre />
   </div>
 </template>
 
