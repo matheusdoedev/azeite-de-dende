@@ -15,21 +15,21 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 
-import { Component } from "nuxt-property-decorator";
+import { Component } from 'nuxt-property-decorator';
 
 @Component
 export default class Intro extends Vue {}
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/settings/colors";
-@import "~/assets/styles/settings/gaps";
+@import '~/assets/styles/settings/colors';
+@import '~/assets/styles/settings/gaps';
 
 .Intro {
   min-height: 100vh;
-  background: no-repeat url("~/assets/images/bg-main.jpg");
+  background: no-repeat url('~/assets/images/bg-main.jpg');
   background-size: cover;
 }
 
@@ -46,9 +46,9 @@ export default class Intro extends Vue {}
   text-align: center;
 
   &::after {
-    content: "";
+    content: '';
     display: block;
-    margin: $md auto $md auto;
+    margin: $xs auto $md auto;
     width: 3rem;
     height: 0.25rem;
     background: $base-color;
