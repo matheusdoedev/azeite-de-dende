@@ -30,7 +30,7 @@
         </ul>
       </section>
       <section class="Footer__section">
-        <h3 class="Footer__section__title" style="margin-bottom: 0;">
+        <h3 class="Footer__section__title" style="margin-bottom: 0">
           Redes Sociais
         </h3>
         <SocialMedias />
@@ -38,8 +38,13 @@
     </div>
     <div class="Footer__copy__block">
       <p class="Footer__copy">
-        Feito por matheusdoedev. Azeite de Dende 2020 @ Todos os direitos
-        reservados&copy;
+        Feito por
+        <a
+          class="Footer__copy__link"
+          target="BLANK"
+          href="https://github.com/matheusdoedev"
+          >matheusdoedev</a
+        >. Azeite de Dende 2020 @ Todos os direitos reservados&copy;
       </p>
     </div>
   </footer>
@@ -65,8 +70,8 @@ const data = () => ({
 });
 
 const components = {
-  SocialMedias: () => import("~/components/SocialMedias.vue"),
-}
+  SocialMedias: () => import('~/components/SocialMedias.vue'),
+};
 
 @Component({ data, components })
 export default class Footer extends Vue {}
@@ -127,5 +132,12 @@ export default class Footer extends Vue {}
   text-align: center;
   margin-top: $md;
   color: #d9d9d9;
+}
+
+.Footer__copy__link {
+  padding-left: 0;
+  padding-right: 0;
+  font-family: $secondary-font;
+  color: $base-color;
 }
 </style>
