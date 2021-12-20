@@ -1,5 +1,5 @@
 <template>
-  <section class="Sobre">
+  <section id="sobre" class="Sobre">
     <div class="Container">
       <h2 class="Sobre__title">Sobre</h2>
       <section class="Sobre__content">
