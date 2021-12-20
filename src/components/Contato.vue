@@ -67,11 +67,16 @@ export default class Contato extends Vue {}
 <style lang="scss">
 @import '~/assets/styles/settings/colors';
 @import '~/assets/styles/settings/gaps';
+@import '~/assets/styles/tools/breakpoints';
 @import '~/assets/styles/objects/container';
 
 .Contato {
   padding: $xl 0;
   background: $secondary-color-2;
+
+  @media (max-width: $small) {
+    padding: $lg 0;
+  }
 }
 
 .Contato__title {
@@ -86,19 +91,35 @@ export default class Contato extends Vue {}
     height: 0.4rem;
     background: $base-color;
     opacity: 40%;
+
+    @media (max-width: $small) {
+      margin-bottom: $md;
+    }
   }
 }
 
 .Contato__content {
   display: grid;
   grid-template-columns: 5fr 7fr;
+
+  @media (max-width: $small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: $sm;
+  }
 }
 
 .Contato__contacts {
   display: flex;
   flex-direction: column;
+  width: 100%;
   row-gap: 4rem;
   border-right: 1px solid rgba(255, 243, 212, 0.4);
+
+  @media (max-width: $small) {
+    border: none;
+  }
 }
 
 .Contato__contacts__item {

@@ -50,11 +50,16 @@ export default class Sobre extends Vue {}
 <style lang="scss">
 @import '~/assets/styles/settings/colors';
 @import '~/assets/styles/settings/gaps';
+@import '~/assets/styles/tools/breakpoints';
 @import '~/assets/styles/objects/container';
 
 .Sobre {
   padding: $xl 0;
   background: $secondary-color-3;
+
+  @media (max-width: $small) {
+    padding: $lg 0;
+  }
 }
 
 .Sobre__title {
@@ -69,6 +74,10 @@ export default class Sobre extends Vue {}
     height: 0.4rem;
     background: $base-color;
     opacity: 40%;
+
+    @media (max-width: $small) {
+      margin-bottom: $md;
+    }
   }
 }
 
@@ -76,6 +85,13 @@ export default class Sobre extends Vue {}
   display: grid;
   grid-template-columns: 5fr 7fr;
   column-gap: 11.5rem;
+
+  @media (max-width: $small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: $sm;
+  }
 }
 
 .Sobre__content__info {

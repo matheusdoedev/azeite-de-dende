@@ -65,11 +65,16 @@ export default class Menu extends Vue {}
 <style lang="scss">
 @import '~/assets/styles/settings/colors';
 @import '~/assets/styles/settings/gaps';
+@import '~/assets/styles/tools/breakpoints';
 @import '~/assets/styles/objects/container';
 
 .Menu {
   background: $support-color-2;
   padding: $xl 0;
+
+  @media (max-width: $small) {
+    padding: $lg 0;
+  }
 }
 
 .Menu__title {
@@ -84,6 +89,10 @@ export default class Menu extends Vue {}
     height: 0.4rem;
     background: $secondary-color-1;
     opacity: 40%;
+
+    @media (max-width: $small) {
+      margin-bottom: $md;
+    }
   }
 }
 
@@ -91,6 +100,12 @@ export default class Menu extends Vue {}
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: $md;
+
+  @media (max-width: $small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .Menu__images__item {

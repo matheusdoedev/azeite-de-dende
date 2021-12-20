@@ -81,11 +81,16 @@ export default class Footer extends Vue {}
 @import '~/assets/styles/settings/colors';
 @import '~/assets/styles/settings/gaps';
 @import '~/assets/styles/settings/fonts';
+@import '~/assets/styles/tools/breakpoints';
 @import '~/assets/styles/objects/container';
 
 .Footer {
   background: $secondary-color-4;
   padding: $lg 0;
+
+  @media (max-width: $small) {
+    padding: $md 0;
+  }
 }
 
 .Footer__container {
@@ -94,11 +99,23 @@ export default class Footer extends Vue {}
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: $sm;
+
+  @media (max-width: $small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: $sm;
+    text-align: center;
+  }
 }
 
 .Footer__section__title {
   color: $support-color-3;
   margin-bottom: $md;
+
+  @media (max-width: $small) {
+    margin-bottom: $sm;
+  }
 }
 
 .Footer__nav__menu {
@@ -132,6 +149,10 @@ export default class Footer extends Vue {}
   text-align: center;
   margin-top: $md;
   color: #d9d9d9;
+
+  @media (max-width: $small) {
+    margin-top: $sm;
+  }
 }
 
 .Footer__copy__link {

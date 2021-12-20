@@ -8,7 +8,7 @@
     <img
       src="~/assets/images/capa-footer.jpg"
       alt="Restaurante"
-      class="Footer__img"
+      class="Footer__cover"
     />
     <Footer />
   </div>
@@ -20,4 +20,12 @@ import Vue from 'vue';
 export default Vue.extend({});
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import '~/assets/styles/tools/breakpoints';
+
+.Footer__cover {
+  @media (max-width: $small) {
+    display: none;
+  }
+}
+</style>
