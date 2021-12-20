@@ -124,6 +124,16 @@ export default {
       { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png' },
       { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png' },
       { rel: 'manifest', href: '/manifest.json' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: true,
+      },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif:wght@700&display=swap',
+        rel: 'stylesheet',
+      },
     ],
   },
 
