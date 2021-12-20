@@ -23,12 +23,19 @@ export default class Header extends Vue {}
 
 <style lang="scss">
 @import '~/assets/styles/settings/gaps';
+@import '~/assets/styles/tools/breakpoints';
 
 .Header {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  align-items: center;
+  width: 100%;
   margin: 0 auto;
-  padding: $md;
+  padding: $md 0;
+  position: relative;
+
+  @media (max-width: $small) {
+    justify-content: flex-end;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <section class="Intro">
-    <div>
+    <div class="Intro__container">
       <Header />
       <section class="Intro__content">
         <h1 class="Intro__content__title">Azeite de Dênde</h1>
@@ -26,11 +26,21 @@ export default class Intro extends Vue {}
 <style lang="scss">
 @import '~/assets/styles/settings/colors';
 @import '~/assets/styles/settings/gaps';
+@import '~/assets/styles/tools/breakpoints';
+@import '~/assets/styles/objects/container';
 
 .Intro {
   min-height: 100vh;
   background: no-repeat url('~/assets/images/bg-main.jpg');
   background-size: cover;
+
+  @media (max-width: $medium) {
+    min-height: auto;
+  }
+}
+
+.Intro__container {
+  @extend .Container;
 }
 
 .Intro__content {
@@ -39,6 +49,11 @@ export default class Intro extends Vue {}
   justify-content: center;
   align-items: center;
   height: 80vh;
+
+  @media (max-width: $medium) {
+    height: auto;
+    padding: $lg 0;
+  }
 }
 
 .Intro__content__title {
