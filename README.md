@@ -1,67 +1,69 @@
 # Azeite de Dênde
 
-Bahian Food Restaurant in the historic center of the city of Salvador.
-
 ![Repo Size][repo-size]
 ![Top Languages][top-languages]
 ![Repo License][repo-license]
-![Repo Version][repo-version]
-![Personal Site][matheus-img]
+
+This is a static website from a fictional Bahian tipical food restaurant.
 
 ## Get Started
 
 Install dependencies:
 
-```sh
-npm install
-
+```
 yarn
+
+npm install
 ```
 
-Start:
+Development:
 
 ```sh
-npm run start
+npm run dev
+
+yarn dev
+```
+
+Production:
+
+```sh
+npm start
 
 yarn start
 ```
 
-Develop:
+Build:
 
 ```sh
-npm run develop
+npm run build
 
-yarn develop
+yarn build
+```
+
+Generate (Static rendering):
+
+```sh
+npm run generate
+
+yarn generate
 ```
 
 ## About
 
-- Institutional website project made with Gatsby.js, React.js, BootStrap, React-Bootstrap and Styled-Components.
-- This was a side project that I did on the UI / UX Design course at Coursera. And so in development I decided to use Gatsby, since the site itself would be a static page.
+- This is a static website from a fictional Bahian tipical food restaurant.
 
 ### Technologies
 
-- [Gatsby.js](https://www.gatsbyjs.org/)
-- [ReactJS](https://pt-br.reactjs.org)
-- [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
-- [Styled-Components](https://styled-components.com/)
-
-## Links
-
-- [Live]("https://azeitededende.netlify.com")
-- [Behance]("https://www.behance.net/gallery/98582339/Azeite-de-Dende-UI")
-
-## Meta
-
-- Author: Matheus do É Santos – [Linkedin](https://www.linkedin.com/in/matheusdoe-dev/)
-- Distributed under the MIT license.
+- [Vue.js](https://v3.vuejs.org/)
+- [Nuxt.js](https://nuxtjs.org/docs/get-started/installation/)
+- [TypeScript.js](https://www.typescriptlang.org/)
+- [SASS.js](https://sass-lang.com/)
 
 ## Contributing
 
 1. Fork it
 2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
+3. Commit your changes following the convential commit standard (`git commit -am 'feat: Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
@@ -70,6 +72,3 @@ yarn develop
 [top-languages]: https://img.shields.io/github/languages/top/matheusdoedev/azeite-de-dende?style=flat-square
 [repo-size]: https://img.shields.io/github/repo-size/matheusdoedev/azeite-de-dende?style=flat-square
 [repo-license]: https://img.shields.io/github/license/matheusdoedev/azeite-de-dende?style=flat-square
-[repo-version]: https://img.shields.io/github/package-json/v/matheusdoedev/azeite-de-dende?style=flat-square
-[matheus-img]: https://img.shields.io/badge/-matheusdoe.dev-%23811662?style=flat-square
-[matheus-url]: https://matheusdoe.com
