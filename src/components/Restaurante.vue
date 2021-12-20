@@ -87,10 +87,15 @@ export default class Restaurante extends Vue {}
 <style lang="scss">
 @import '~/assets/styles/settings/colors';
 @import '~/assets/styles/settings/gaps';
+@import '~/assets/styles/tools/breakpoints';
 
 .Restaurante {
   background: $secondary-color-1;
   padding: $xl 0;
+
+  @media (max-width: $small) {
+    padding: $lg 0;
+  }
 }
 
 .Restaurante__container {
@@ -120,6 +125,12 @@ export default class Restaurante extends Vue {}
   grid-template-columns: 5fr 7fr;
   gap: $sm;
   margin-bottom: $lg;
+
+  @media (max-width: $small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .Restaurante__info__image {
@@ -139,6 +150,12 @@ export default class Restaurante extends Vue {}
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: $md;
+
+  @media (max-width: $small) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .Restaurante__photos_image {
