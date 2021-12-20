@@ -17,6 +17,11 @@ a {
   color: initial;
 }
 
+img {
+  object-fit: cover;
+  object-position: center center;
+}
+
 button {
   transition: 0.2s;
 
