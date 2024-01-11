@@ -1,37 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100vh;
 }
 
-*,
-ul,
-ol,
-dl {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  box-sizing: border-box;
-  list-style: none;
-}
-
 a {
-  color: initial;
-}
-
-img {
-  object-fit: cover;
-  object-position: center center;
+  text-decoration: none;
 }
 
 button {
-  transition: 0.2s;
-
-  &:hover {
-    cursor: pointer;
-    filter: brightness(85%);
-    transition: 0.2s;
-  }
+  background: none;
+  border: none;
+  font-weight: 500;
 }
 
-html {
-  font-size: 62.5%;
+a:hover,
+button:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:disabled,
+button:disabled {
+  cursor: not-allowed;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+fieldset {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+p,
+span,
+label {
+  font-weight: 400;
+}
+
+p,
+input,
+label {
+  font-size: 14px;
+}
+
+p {
+  max-width: 30em;
+  line-height: 1.4em;
+}
+
+label,
+input,
+button {
+  line-height: 1.1em;
 }
