@@ -1,36 +1,17 @@
 {
-  "name": "azeite-de-dende",
-  "version": "2.0.0",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "test": "jest"
-  },
-  "dependencies": {
-    "core-js": "^3.15.1",
-    "nuxt": "^2.15.7",
-    "nuxt-property-decorator": "^2.9.1"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.7",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@vue/test-utils": "^1.2.1",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^27.0.5",
-    "eslint": "^8.2.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.1.1",
-    "jest": "^27.0.5",
-    "prettier": "^2.4.1",
-    "sass": "^1.43.4",
-    "sass-loader": "10",
-    "ts-jest": "^27.0.3",
-    "vue-jest": "^3.0.4"
+    "nuxt": "^3.9.0",
+    "vue": "^3.4.6",
+    "vue-router": "^4.2.5"
   }
 }

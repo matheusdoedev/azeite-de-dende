@@ -1,74 +1,75 @@
-# Azeite de Dênde
+# Nuxt 3 Minimal Starter
 
-![Repo Size][repo-size]
-![Top Languages][top-languages]
-![Repo License][repo-license]
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-This is a static website from a fictional Bahian tipical food restaurant.
+## Setup
 
-## Get Started
+Make sure to install the dependencies:
 
-Install dependencies:
-
-```
-yarn
-
+```bash
+# npm
 npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-Development:
+## Development Server
 
-```sh
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
 npm run dev
 
+# pnpm
+pnpm run dev
+
+# yarn
 yarn dev
+
+# bun
+bun run dev
 ```
 
-Production:
+## Production
 
-```sh
-npm start
+Build the application for production:
 
-yarn start
-```
-
-Build:
-
-```sh
+```bash
+# npm
 npm run build
 
+# pnpm
+pnpm run build
+
+# yarn
 yarn build
+
+# bun
+bun run build
 ```
 
-Generate (Static rendering):
+Locally preview production build:
 
-```sh
-npm run generate
+```bash
+# npm
+npm run preview
 
-yarn generate
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
 ```
 
-## About
-
-- This is a static website from a fictional Bahian tipical food restaurant.
-
-### Technologies
-
-- [Vue.js](https://v3.vuejs.org/)
-- [Nuxt.js](https://nuxtjs.org/docs/get-started/installation/)
-- [TypeScript.js](https://www.typescriptlang.org/)
-- [SASS.js](https://sass-lang.com/)
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes following the convential commit standard (`git commit -am 'feat: Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-
-[top-languages]: https://img.shields.io/github/languages/top/matheusdoedev/azeite-de-dende?style=flat-square
-[repo-size]: https://img.shields.io/github/repo-size/matheusdoedev/azeite-de-dende?style=flat-square
-[repo-license]: https://img.shields.io/github/license/matheusdoedev/azeite-de-dende?style=flat-square
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
